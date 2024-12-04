@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+Body{
+    background-color:rgb(197, 248, 231);
+}
+.Container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+}
+.img1{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding:1em;
+    border:none;
+    border-radius: 1em;
+    box-shadow: 2px 2px 3px black;
+    gap:10px;
+}
+.shop{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0 0.5em;
+}
+.shoe{
+    border:none;
+    border-radius: 1em;
+}
+.img1 h1{
+    color:rgba(0, 0, 0, 0.87);
+}
+.img1 p{
+    color:darkblue;
+    font-weight: bold;
+}
+.img1 i{
+    color:black;
+}
